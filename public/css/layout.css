@@ -1,0 +1,6 @@
+/* Settings for the page layout */
+
+/* Colored bar */
+.bar-height { 
+    height: 0.3rem; /* Equivalent to 3px, in accordance with the setting in the base css */
+}

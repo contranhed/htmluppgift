@@ -1,0 +1,10 @@
+/* Display setting */
+.display-flex {
+    display: flex; /* Explicity state the the display should be flexible with rows and columns depending on the page size */
+}
+
+/* Display setting for the us eof flex*/
+.flex-grow { 
+    flex-grow: 1; /* Should grow when the page is widened */
+}
+
