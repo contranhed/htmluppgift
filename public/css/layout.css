@@ -4,3 +4,30 @@
 .bar-height { 
     height: 0.3rem; /* Equivalent to 3px, in accordance with the setting in the base css */
 }
+
+/* Set the max width for the page regardless how stretched it is */
+.max-width { 
+    max-width: 192rem; 
+}
+
+/* Set the left and right margin. Only need to use the mx-auto when referencing to the classes in html doc */
+.mr-auto, .mx-auto { 
+    margin-right: auto; 
+}
+
+.ml-auto, .mx-auto { 
+    margin-left: auto;
+}
+
+/* Width for the logo picture */
+.logo-width { 
+    max-width: 13rem; /* Equivalent to 130 px */
+}
+
+/* Settings for padding. Reuse of variables for distance in base.css file */
+.p-4 { padding: var(--distance-4); }
+.p-5 { padding: var(--distance-5); }
+.p-6 { padding: var(--distance-6); }
+.p-8 { padding: var(--distance-8); }
+.p-12 { padding: var(--distance-12); }
+.p-15 { padding: var(--distance-15); }

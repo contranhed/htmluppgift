@@ -8,3 +8,12 @@
     flex-grow: 1; /* Should grow when the page is widened */
 }
 
+/* Setting to align and justify the items/elements on the page */
+.justify-content-between { 
+    justify-content: space-between;
+}
+
+/* Setting to align the items/elements to the center of the row */
+.align-items-center { 
+    align-items: center;
+}
