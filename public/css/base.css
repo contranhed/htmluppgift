@@ -15,7 +15,7 @@
     --color-border: #dee2e6;
     --color-dark-transparent: rgba(0, 0, 0, 0.2); /* Used to create blurred effect */
 
-    /* Differences sizes for display on the page / List of variables for reuse in the application */
+    /* Differences font sizes for display on the page / List of variables for reuse in the application */
     --display-xxs: 1rem; 
     --display-xs: 1.4rem;
     --display-sm: 1.6rem;

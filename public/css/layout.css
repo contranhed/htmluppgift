@@ -1,12 +1,15 @@
 /* Settings for the page layout */
 
 /* Colored bar */
-.bar-height { 
-    height: 0.3rem; /* Equivalent to 3px, in accordance with the setting in the base css */
-}
+/* Equivalent to 3px, in accordance with the setting in the base css */
+.bar-height { height: 0.3rem; }
 
 /* Set the max width for the page regardless how stretched it is */
 .max-width { max-width: 192rem; }
+
+/* Position */
+.position-relative { position: relative !important; } 
+.position-absolute { position: absolute !important; }
 
 /* Set the left and right margin. Only need to use the mx-auto when referencing to the classes in html doc */
 .mr-auto, .mx-auto { margin-right: auto; }
@@ -31,12 +34,8 @@
 .mt-15, .my-15 { margin-top: var(--distance-15); } /* Equivalent to 4rem */
 .mb-15, .my-15 { margin-bottom: var(--distance-15); }
 
-
-
 /* Width for the logo picture */
-.logo-width { 
-    max-width: 13rem; /* Equivalent to 130 px */
-}
+.logo-width { max-width: 13rem; } /* Equivalent to 130 px */
 
 /* Settings for padding. Reuse of variables for distance in base.css file */
 .p-4 { padding: var(--distance-4); }
@@ -47,25 +46,33 @@
 .p-15 { padding: var(--distance-15); }
 
 /* Typography */
-.text-decoration-none { 
-    text-decoration: none;
-}
+.text-decoration-none { text-decoration: none; }
+
+.text-size-xxs { font-size: var(--display-xxs); }
+.text-size-xs { font-size: var(--display-xs); }
+.text-size-sm { font-size: var(--display-sm); }
+.text-size-md { font-size: var(--display-md); }
+.text-size-lg { font-size: var(--display-lg); }
+.text-size-xl { font-size: var(--display-xl); }
+.text-size-xxl { font-size: var(--display-xxl); }
 
 .lh-sm { line-height: var(--line-height-sm); }
 .lh-md { line-height: var(--line-height-md); }
 .lh-lg { line-height: var(--line-height-lg); }
 
 /* Shadows */
-.shadow-sm { 
-    box-shadow: var(--shadow-small-light);
-}
+.shadow-sm { box-shadow: var(--shadow-small-light); }
 
-.circle {
-    border-radius: 100%;
-}
+.circle { border-radius: 100%; }
 
 /* Buttons */
-nav div a:not(first-child) { /* All a elements but the first */
-    margin-left: var(--distance-12);
+nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a elements but the first */
+.icon-badge { 
+    top: -8px;
+    right: -8px;
+    padding: var(--distance-1) var(--distance-3);
 }
 
+/* Borders */
+.border-small-white { border: var(--border-xs-white); }
+.border-radius { border-radius: var(--border-radius-sm); }

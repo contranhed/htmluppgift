@@ -1,32 +1,16 @@
 /* Display setting */
-.display-flex {
-    display: flex; /* Explicity state the the display should be flexible with rows and columns depending on the page size */
-}
+/* Explicity state the the display should be flexible with rows and columns depending on the page size */
+.display-flex { display: flex; }
 
 /* Settings for the use of flex */
-.flex-grow { 
-    flex-grow: 1; /* Should grow when the page is widened */
-}
-
-.flex-row { 
-    flex-direction: row;
-}
-
-.flex-column { 
-    flex-direction: column;
-}
+/* Should grow when the page is widened */
+.flex-grow { flex-grow: 1; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
 
 /* Settings to align and justify the items/elements on the page */
-.justify-content-between { 
-    justify-content: space-between;
-}
-
-.justify-content-center { 
-    justify-content: center;
-}
-
-.align-items-center { 
-    align-items: center;
-}
+.justify-content-between { justify-content: space-between; }
+.justify-content-center { justify-content: center; }
+.align-items-center { align-items: center; }
 
 
