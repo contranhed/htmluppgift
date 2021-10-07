@@ -3,17 +3,30 @@
     display: flex; /* Explicity state the the display should be flexible with rows and columns depending on the page size */
 }
 
-/* Display setting for the us eof flex*/
+/* Settings for the use of flex */
 .flex-grow { 
     flex-grow: 1; /* Should grow when the page is widened */
 }
 
-/* Setting to align and justify the items/elements on the page */
+.flex-row { 
+    flex-direction: row;
+}
+
+.flex-column { 
+    flex-direction: column;
+}
+
+/* Settings to align and justify the items/elements on the page */
 .justify-content-between { 
     justify-content: space-between;
 }
 
-/* Setting to align the items/elements to the center of the row */
+.justify-content-center { 
+    justify-content: center;
+}
+
 .align-items-center { 
     align-items: center;
 }
+
+

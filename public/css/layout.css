@@ -6,18 +6,32 @@
 }
 
 /* Set the max width for the page regardless how stretched it is */
-.max-width { 
-    max-width: 192rem; 
-}
+.max-width { max-width: 192rem; }
 
 /* Set the left and right margin. Only need to use the mx-auto when referencing to the classes in html doc */
-.mr-auto, .mx-auto { 
-    margin-right: auto; 
-}
+.mr-auto, .mx-auto { margin-right: auto; }
+.ml-auto, .mx-auto { margin-left: auto; }
 
-.ml-auto, .mx-auto { 
-    margin-left: auto;
-}
+.mt-0, .my-0 { margin-top: var(--distance-0); } /* Equivalent to 0rem */
+.mb-0, .my-0 { margin-bottom: var(--distance-0); }
+.mt-1, .my-1 { margin-top: var(--distance-1); } /* Equivalent to .25rem */
+.mb-1, .my-1 { margin-bottom: var(--distance-1); }
+.mt-2, .my-2 { margin-top: var(--distance-2); } /* Equivalent to .5rem */
+.mb-2, .my-2 { margin-bottom: var(--distance-2); }
+.mt-4, .my-4 { margin-top: var(--distance-4); } /* Equivalent to 1rem */
+.mb-4, .my-4 { margin-bottom: var(--distance-4); }
+.mt-6, .my-6 { margin-top: var(--distance-6); } /* Equivalent to 1.5rem */
+.mb-6, .my-6 { margin-bottom: var(--distance-6); }
+.mt-8, .my-8 { margin-top: var(--distance-8); } /* Equivalent to 2rem */
+.mb-8, .my-8 { margin-bottom: var(--distance-8); }
+.mt-10, .my-10 { margin-top: var(--distance-10); } /* Equivalent to 2.5rem */
+.mb-10, .my-10 { margin-bottom: var(--distance-10); }
+.mt-12, .my-12 { margin-top: var(--distance-12); } /* Equivalent to 3rem */
+.mb-12, .my-12 { margin-bottom: var(--distance-12); }
+.mt-15, .my-15 { margin-top: var(--distance-15); } /* Equivalent to 4rem */
+.mb-15, .my-15 { margin-bottom: var(--distance-15); }
+
+
 
 /* Width for the logo picture */
 .logo-width { 
@@ -31,3 +45,27 @@
 .p-8 { padding: var(--distance-8); }
 .p-12 { padding: var(--distance-12); }
 .p-15 { padding: var(--distance-15); }
+
+/* Typography */
+.text-decoration-none { 
+    text-decoration: none;
+}
+
+.lh-sm { line-height: var(--line-height-sm); }
+.lh-md { line-height: var(--line-height-md); }
+.lh-lg { line-height: var(--line-height-lg); }
+
+/* Shadows */
+.shadow-sm { 
+    box-shadow: var(--shadow-small-light);
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+/* Buttons */
+nav div a:not(first-child) { /* All a elements but the first */
+    margin-left: var(--distance-12);
+}
+
