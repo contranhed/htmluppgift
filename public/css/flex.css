@@ -9,6 +9,7 @@
 .flex-row { flex-direction: row; }
 .flex-column { flex-direction: column; }
 .flex-row-reverse { flex-direction: row-reverse; }
+.flex-wrap { flex-wrap: wrap; }
 
 /* Settings to align and justify the items/elements on the page */
 .justify-content-between { justify-content: space-between; }
