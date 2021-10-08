@@ -40,15 +40,15 @@
 .mt-15, .my-15 { margin-top: var(--distance-15); } /* Equivalent to 4rem */
 .mb-15, .my-15 { margin-bottom: var(--distance-15); }
 
-.mr-4, .my-4 { margin-right: var(--distance-4); } /* Equivalent to 1rem */
-.ml-4, .my-4 { margin-left: var(--distance-4); }
-.mr-6, .my-6 { margin-right: var(--distance-6); } /* Equivalent to 1.5rem */
-.ml-6, .my-6 { margin-left: var(--distance-6); }
+.mr-4, .mx-4 { margin-right: var(--distance-4); } /* Equivalent to 1rem */
+.ml-4, .mx-4 { margin-left: var(--distance-4); }
+.mr-6, .mx-6 { margin-right: var(--distance-6); } /* Equivalent to 1.5rem */
+.ml-6, .mx-6 { margin-left: var(--distance-6); }
 
 /* Settings for padding. Reuse of variables for distance in base.css file */
-.p-4 { padding: var(--distance-4); }
-.p-5 { padding: var(--distance-5); }
-.p-6 { padding: var(--distance-6); }
+.p-4 { padding: var(--distance-4); } 
+.p-5 { padding: var(--distance-5); } 
+.p-6 { padding: var(--distance-6); } 
 .p-8 { padding: var(--distance-8); }
 .p-12 { padding: var(--distance-12); }
 .p-15 { padding: var(--distance-15); }
