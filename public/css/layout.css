@@ -10,6 +10,12 @@
 /* Position */
 .position-relative { position: relative !important; } 
 .position-absolute { position: absolute !important; }
+.overflow-hidden { overflow: hidden; }
+.centerXY { /* Used in absolute positioning to center the elements/items */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* Set the left and right margin. Only need to use the mx-auto when referencing to the classes in html doc */
 .mr-auto, .mx-auto { margin-right: auto; }
@@ -39,9 +45,6 @@
 .mr-6, .my-6 { margin-right: var(--distance-6); } /* Equivalent to 1.5rem */
 .ml-6, .my-6 { margin-left: var(--distance-6); }
 
-/* Width for the logo picture */
-.logo-width { max-width: 13rem; } /* Equivalent to 130 px */
-
 /* Settings for padding. Reuse of variables for distance in base.css file */
 .p-4 { padding: var(--distance-4); }
 .p-5 { padding: var(--distance-5); }
@@ -52,6 +55,7 @@
 
 /* Typography */
 .text-decoration-none { text-decoration: none; }
+.text-center { text-align: center; }
 
 .text-size-xxs { font-size: var(--display-xxs); }
 .text-size-xs { font-size: var(--display-xs); }
@@ -82,3 +86,22 @@ nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a element
 .border-small-white { border: var(--border-xs-white); }
 .border-radius { border-radius: var(--border-radius-sm); }
 .border-bottom-xs { border-bottom: var(--border-xs); }
+
+/* Width for the logo picture */
+.logo-width { max-width: 13rem; } /* Equivalent to 130 px */
+
+/* Slide show */
+.slider-width { width: 400%; } /* Each image takes up 100% of the screen width */
+.slider-container { width: 25%; } /* Display one image at a time */
+.slider-image { width: 100%; object-fit: cover; } /* The image's width should be 100% and cover the container */
+/* .slider-animation { animation: 30s slider-keyframes infinite; } Animation property that goes 30s and uses the list of key frames. Infinite means a loop with the images */
+
+@keyframes slider-keyframes { /* Makes the images act as a carousel slide */
+    0% { left: 0%; } /* Display image 1 */
+    15% { left: -100%; } /* Time diff to fully display image 2 */
+    30% { left: -200%; } /* Time diff to fully display image 3 */
+    45% { left: -300%; } /* Time diff to fully display image 4 */
+    60% { left: -200%; } /* Time diff to fully display image 3 */
+    75% { left: -100%; } /* Time diff to fully display image 2 */
+    100% { left: 0%; } /* Time diff to fully display image 1 */
+}
