@@ -1,13 +1,14 @@
-/* Settings for the page layout */
+/* Style settings for the page layout */
 
 /* Colored bar */
 /* Equivalent to 3px, in accordance with the setting in the base css */
 .bar-height { height: 0.3rem; }
 
+/* Max width setting. */
 /* Set the max width for the page regardless how stretched it is */
 .max-width { max-width: 192rem; } /* Equivalent to 1920 pixels */
 
-/* Position */
+/* Position settings */
 .position-relative { position: relative !important; } 
 .position-absolute { position: absolute !important; }
 .overflow-hidden { overflow: hidden; }
@@ -17,6 +18,7 @@
     transform: translate(-50%, -50%);
 }
 
+/* Margin settings */
 /* Set the left and right margin. Only need to use the mx-auto when referencing to the classes in html doc */
 .mr-auto, .mx-auto { margin-right: auto; }
 .ml-auto, .mx-auto { margin-left: auto; }
@@ -45,7 +47,7 @@
 .mr-6, .mx-6 { margin-right: var(--distance-6); } /* Equivalent to 1.5rem */
 .ml-6, .mx-6 { margin-left: var(--distance-6); }
 
-/* Settings for padding. Reuse of variables for distance in base.css file */
+/* Padding settings. Reuse of variables for distance in base.css file */
 .p-4 { padding: var(--distance-4); } 
 .p-5 { padding: var(--distance-5); } 
 .p-6 { padding: var(--distance-6); } 
@@ -56,7 +58,7 @@
 .pr-12, .px-12 { padding-right: var(--distance-12); }
 .pl-12, .px-12 { padding-left: var(--distance-12); }
 
-/* Typography */
+/* Typography setting */
 .text-decoration-none { text-decoration: none; }
 .text-center { text-align: center; }
 
@@ -72,12 +74,14 @@
 .lh-md { line-height: var(--line-height-md); }
 .lh-lg { line-height: var(--line-height-lg); }
 
-/* Shadows */
+/* Shadow settings */
 .shadow-sm { box-shadow: var(--shadow-small-light); }
+.shadow-lg { box-shadow: var(--shadow-large-light); }
 
+/* Circle settings */
 .circle { border-radius: 100%; }
 
-/* Buttons */
+/* Button settings */
 nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a elements but the first */
 .icon-badge { 
     top: -8px;
@@ -85,15 +89,16 @@ nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a element
     padding: var(--distance-1) var(--distance-3);
 }
 
-/* Borders */
+/* Border settings */
 .border-small-white { border: var(--border-xs-white); }
 .border-radius { border-radius: var(--border-radius-sm); }
 .border-bottom-xs { border-bottom: var(--border-xs); }
+.border-sm { border: var(--border-sm); }
 
 /* Width for the logo picture */
 .logo-width { max-width: 13rem; } /* Equivalent to 130 px */
 
-/* Slide show */
+/* Slide show settings */
 .slider-width { width: 400%; } /* Each image takes up 100% of the screen width */
 .slider-container { width: 25%; } /* Display one image at a time */
 .slider-image { width: 100%; object-fit: cover; } /* The image's width should be 100% and cover the container */
@@ -109,5 +114,9 @@ nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a element
     100% { left: 0%; } /* Time diff to fully display image 1 */
 }
 
-/* Settings for the Features */
+/* Features settings */
 .feature-width { max-width: 33%; } /* Percentage to help modify the content when the page shrinks */
+
+/* Icon settings */
+.icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem; } /* Styling for the icon in the Feature section */
+.icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem; } /* Styling for the circle in the Feature icon */
