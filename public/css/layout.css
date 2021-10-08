@@ -86,6 +86,7 @@
 
 /* Circle settings */
 .circle { border-radius: 100%; }
+.circle.lg { width: 15rem; height: 15rem; }
 
 /* Button settings */
 nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a elements but the first */
