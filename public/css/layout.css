@@ -64,6 +64,7 @@
 /* Typography setting */
 .text-decoration-none { text-decoration: none; }
 .text-center { text-align: center; }
+.text-uppercase { text-transform: uppercase; }
 
 .text-size-xxs { font-size: var(--display-xxs); }
 .text-size-xs { font-size: var(--display-xs); }
@@ -97,6 +98,7 @@ nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a element
 .border-radius { border-radius: var(--border-radius-sm); }
 .border-bottom-xs { border-bottom: var(--border-xs); }
 .border-sm { border: var(--border-sm); }
+.border-transparent { border: var(--border-transparent); }
 
 /* Width for the logo picture */
 .logo-width { max-width: 13rem; } /* Equivalent to 130 px */
