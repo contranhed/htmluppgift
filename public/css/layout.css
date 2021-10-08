@@ -7,6 +7,7 @@
 /* Max width setting. */
 /* Set the max width for the page regardless how stretched it is */
 .max-width { max-width: 192rem; } /* Equivalent to 1920 pixels */
+.card-width { max-width: 60rem; } /* For the event card */
 
 /* Position settings */
 .position-relative { position: relative !important; } 
@@ -20,7 +21,7 @@
 
 /* Margin settings */
 /* Set the left and right margin. Only need to use the mx-auto when referencing to the classes in html doc */
-.mr-auto, .mx-auto { margin-right: auto; }
+.mr-auto, .mx-auto { margin-right: auto; } /* Centers the margin outside of the div */
 .ml-auto, .mx-auto { margin-left: auto; }
 
 .m-6 { margin: var(--distance-6); } /* Equivalent to 1.5rem */
@@ -67,6 +68,7 @@
 .text-decoration-none { text-decoration: none; }
 .text-center { text-align: center; }
 .text-uppercase { text-transform: uppercase; }
+.text-bold { font-weight: bold; }
 
 .text-size-xxs { font-size: var(--display-xxs); }
 .text-size-xs { font-size: var(--display-xs); }
@@ -105,6 +107,7 @@ nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a element
 
 /* Width for the logo picture */
 .logo-width { max-width: 13rem; } /* Equivalent to 130 px */
+.img-lg-width { max-width: 60%; } /* Maximum 60 percent uptake of the container's width */
 
 /* Slide show settings */
 .slider-width { width: 400%; } /* Each image takes up 100% of the screen width */

@@ -13,7 +13,7 @@
 
 /* Settings to align and justify the items/elements on the page */
 .justify-content-between { justify-content: space-between; }
-.justify-content-center { justify-content: center; }
+.justify-content-center { justify-content: center; } /* Centers the content in the element */
 .justify-content-around { justify-content: space-around; }
 .align-items-center { align-items: center; }
 
