@@ -23,6 +23,8 @@
 .mr-auto, .mx-auto { margin-right: auto; }
 .ml-auto, .mx-auto { margin-left: auto; }
 
+.m-6 { margin: var(--distance-6); } /* Equivalent to 1.5rem */
+
 .mt-0, .my-0 { margin-top: var(--distance-0); } /* Equivalent to 0rem */
 .mb-0, .my-0 { margin-bottom: var(--distance-0); }
 .mt-1, .my-1 { margin-top: var(--distance-1); } /* Equivalent to .25rem */
