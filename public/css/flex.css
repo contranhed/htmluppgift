@@ -1,12 +1,14 @@
 /* Display setting */
-/* Explicity state the the display should be flexible with rows and columns depending on the page size */
+
+/* Explicity state that the display should be flexible with rows and columns depending on the page size */
 .display-flex { display: flex; }
+.display-none { display: none; } /* Hides chosen elements */
 
 /* Settings for the use of flex */
-/* Should grow when the page is widened */
-.flex-grow { flex-grow: 1; }
+.flex-grow { flex-grow: 1; } /* Should grow when the page is widened */
 .flex-row { flex-direction: row; }
 .flex-column { flex-direction: column; }
+.flex-row-reverse { flex-direction: row-reverse; }
 
 /* Settings to align and justify the items/elements on the page */
 .justify-content-between { justify-content: space-between; }

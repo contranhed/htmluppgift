@@ -49,7 +49,7 @@
     --distance-16: 4rem;
 
     /* Shadows used on the page  / List of variables for reuse in the application */
-    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1); /* Thiner shadow used for the navigation rings */
+    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1); /* Thinner shadow used for the navigation rings */
     --shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1); /* Thicker shadow for the buttons */
 
     /* Borders used for the page */
@@ -60,10 +60,10 @@
 
     --border-radius-sm: .25rem; /* Rounded edges */
     --border-success: .2rem solid var(--border-color-success); 
-    --border-transparent: .1 solid var(--color-transparent); /* Used to make a border invisible */
+    --border-transparent: .1 solid var(--color-transparent); /* Makes a border invisible */
 }
 
-/* A manual reset of CSS that selects all elements in the document. Remove all default margins and paddings on the elements. */
+/* A manual reset of CSS that selects all elements in the document. Removes all default margins and paddings on the elements. */
 * {
     margin: 0;
     padding: 0;
@@ -95,7 +95,7 @@ body {
 /* Default settings for the fonts */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: "Dosis", "Open Sans", sans-serif; /* First font choice, second font choice. Third option is the browser's default sans-serif font */
-    font-weight: 700; /* Bolder text*/
+    font-weight: 700; /* Bolder text */
     letter-spacing: .05rem; 
 }
 
@@ -129,7 +129,7 @@ body {
 .text-white { color: var(--color-white); }
 .text-cozy { color: var(--color-cozy); }
 
-/* Border colors used for the page / !important overrides and makes the below syntax precede any other styling in the application */
+/* Border colors used for the page / !important overrides and ensures the below syntax precede any other styling in the application */
 .border-color-primary { border-color: var(--color-primary)!important; } 
 .border-color-secondary { border-color: var(--color-secondary)!important; }
 .border-color-success { border-color: var(--color-success)!important; }

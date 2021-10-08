@@ -34,6 +34,11 @@
 .mt-15, .my-15 { margin-top: var(--distance-15); } /* Equivalent to 4rem */
 .mb-15, .my-15 { margin-bottom: var(--distance-15); }
 
+.mr-4, .my-4 { margin-right: var(--distance-4); } /* Equivalent to 1rem */
+.ml-4, .my-4 { margin-left: var(--distance-4); }
+.mr-6, .my-6 { margin-right: var(--distance-6); } /* Equivalent to 1.5rem */
+.ml-6, .my-6 { margin-left: var(--distance-6); }
+
 /* Width for the logo picture */
 .logo-width { max-width: 13rem; } /* Equivalent to 130 px */
 
@@ -76,3 +81,4 @@ nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a element
 /* Borders */
 .border-small-white { border: var(--border-xs-white); }
 .border-radius { border-radius: var(--border-radius-sm); }
+.border-bottom-xs { border-bottom: var(--border-xs); }
