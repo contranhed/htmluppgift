@@ -58,6 +58,9 @@
 .pr-12, .px-12 { padding-right: var(--distance-12); }
 .pl-12, .px-12 { padding-left: var(--distance-12); }
 
+.pr-4, .px-4 { padding-right: var(--distance-4); }
+.pl-4, .px-4 { padding-left: var(--distance-4); }
+
 /* Typography setting */
 .text-decoration-none { text-decoration: none; }
 .text-center { text-align: center; }
