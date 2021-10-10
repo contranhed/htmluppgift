@@ -1,0 +1,29 @@
+@media only screen and (max-width: 68.75em) { /* 1100px/16px = 68.75em */
+    html { font-size: 50%; }
+}
+
+@media screen and (max-width: 56.25em) { /* 900px/16px = 56.25em */
+    .feature-width { max-width: 50% !important; }
+}
+
+@media screen and (max-width: 37.5em) { /* 600px/16px = 37.5em */
+    .display-sm-block { display: block !important; } /* Block when display is small */ 
+    .display-sm-none { display: none !important; } /* To ensure implementation */
+    nav div a:not(:first-child) { margin-left: 2rem; } /* All a tags but the first will have a 2rem margin */
+    .feature-width { max-width: 100% !important; }
+    .mb-sm-12 { margin-bottom: var(--distance-12); } 
+    .mt-sm-12 { margin-top: var(--distance-12); }
+    .flex-sm-column { flex-direction: column; }
+    footer > div > div { max-width: 100% !important; }
+    .img-sm-width { width: 150% !important; } /* A different way of changing the image size */
+}
+
+@media screen and (max-width: 31.5em) { /* 500px/16px = 31.5em */
+    .flex-xs-column { flex-direction: column; }
+    .img-xs-width { max-width: 150% !important; }
+}
+
+@media screen and (max-width: 25em) { /* 400px/16px = 25em */ 
+    .heading-xxs-width { width: 100% !important; }
+    .h1-sm { font-size: var(--distance-12);}
+}
