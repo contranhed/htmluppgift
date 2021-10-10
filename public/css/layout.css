@@ -9,6 +9,7 @@
 .max-width { max-width: 192rem; } /* Equivalent to 1920 pixels */
 .card-width { max-width: 60rem; } /* For the event card */
 .width-lg { max-width: 50%; } /* For the address section */
+.min-width-xxl { min-width: 100%; } /* For the form section */
 
 /* Position settings */
 .position-relative { position: relative !important; } 
@@ -114,6 +115,7 @@ nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a element
 /* Width for the logo picture */
 .logo-width { max-width: 13rem; } /* Equivalent to 130 px */
 .img-lg-width { max-width: 60%; } /* Maximum 60 percent uptake of the container's width */
+.icon-form-control { right: 10px; top: 10px; }
 
 /* Slide show settings */
 .slider-width { width: 400%; } /* Each image takes up 100% of the screen width */
