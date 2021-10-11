@@ -121,7 +121,7 @@ nav div a:not(first-child) { margin-left: var(--distance-12); } /* All a element
 .slider-width { width: 400%; } /* Each image takes up 100% of the screen width */
 .slider-container { width: 25%; } /* Display one image at a time */
 .slider-image { width: 100%; object-fit: cover; } /* The image's width should be 100% and cover the container */
-/*.slider-animation { animation: 30s slider-keyframes infinite; } /*Animation property that goes 30s and uses the list of key frames. Infinite means a loop with the images */
+.slider-animation { animation: 30s slider-keyframes infinite; } /*Animation property that goes 30s and uses the list of key frames. Infinite means a loop with the images */
 
 @keyframes slider-keyframes { /* Makes the images act as a carousel slide */
     0% { left: 0%; } /* Display image 1 */
